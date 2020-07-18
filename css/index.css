@@ -85,6 +85,7 @@ table, tr, td, th {
 td {
 	border-bottom: 2px #F35050 solid;
 	padding: 5px;
+	margin: 5px;
 	font-size: 9pt;
 	color: #FFA2A2;
 	letter-spacing: 1px;
@@ -109,7 +110,7 @@ td:hover {
 
 th {
 	border-bottom: 3px #F2F2F2 solid;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 th {
