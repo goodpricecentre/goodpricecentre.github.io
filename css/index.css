@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #E32728;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 8pt;
+	padding: 0;
+	margin: 0;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #E32728;
+    background: #F2F2F2;
+}
+
+::selection {
+    color: #E32728;
+    background: #F2F2F2;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 500px;
+	max-width: 900px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11pt;
+	margin: 0 auto;	
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	position: relative;
+	color: #F2F2F2;
+}
+
+#header {
+	top: 0;
+	padding: 0;
+	margin: 0 auto;
+	position: fixed;
+	display:block;
+	width: 100%;
+	height: 250px;
+	padding: 0px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+
+
+#footer {
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 30px;
+	padding: 15px 0 0 0;
+	overflow: hidden;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	color: #F2F2F2;
+	position: relative;
+}
+
+#footer a {
+	color: #F2F2F2;
+}
+
+.title {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+}
+
+table, tr, td, th {
+	border: 0;
+}
+
+td {
+	border-bottom: 2px #F35050 solid;
+	padding: 5px;
+	font-size: 9pt;
+	color: #FFA2A2;
+	letter-spacing: 1px;
+	vertical-align: bottom;
+}
+
+td.blank {
+	border: none;
+}
+td.blank:hover {
+	color: #FFA2A2;
+	background: none;
+	border: none;
+}
+
+td:hover {
+	color: #F2F2F2;
+	border-bottom: 2px #F2F2F2 solid;
+	background-color: #b81010;
+	cursor: crosshair;
+}
+
+th {
+	border-bottom: 3px #F2F2F2 solid;
+	padding-top: 20px;
+}
+
+th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 12pt;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: left;
+}
