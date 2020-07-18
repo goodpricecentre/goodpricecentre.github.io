@@ -55,6 +55,7 @@ a {
 #footer {
 	bottom: 0;
 	margin: 0 auto;
+	background: #fff;
 	width: 100%;
 	height: 30px;
 	padding: 15px 0 0 0;
@@ -62,12 +63,12 @@ a {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 8pt;
 	text-align: center;
-	color: #F2F2F2;
+	color: #E32728;
 	position: relative;
 }
 
 #footer a {
-	color: #F2F2F2;
+	color: #E32728;
 }
 
 .title {
