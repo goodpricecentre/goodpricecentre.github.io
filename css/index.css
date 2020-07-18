@@ -20,7 +20,7 @@ a {
 
 ::selection {
     color: #E32728;
-    background: #F2F2F2;
+    background: #FFFF;
 }
 
 #wrapper {
@@ -29,7 +29,7 @@ a {
 	max-width: 900px;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 11pt;
-	margin: 0;	
+	margin: 0 auto !important;	
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
